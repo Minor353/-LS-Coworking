@@ -8,14 +8,14 @@ The intensive on LoftSchool. Lvl 1/ The first work.
 
 
 **Main page**
-![Intro page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/workadium.jpg)
+![Main page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/workadium.jpg)
 
 
 
 **Prices page**
-![Intro page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/prices.jpg)
+![Prices page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/prices.jpg)
 
 
 
 **Comments page**
-![Intro page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/comments.jpg)
+![Comments page](https://github.com/Minor353/-LS-Coworking/blob/master/Intro%20img/comments.jpg)
