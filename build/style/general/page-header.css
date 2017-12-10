@@ -1,0 +1,43 @@
+.page-header {
+    background-color: #27273e;
+    width: 100%;
+}
+
+.page-header__panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.page-header__panel-logo {
+    background-image: url(../../img/general-img/header-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.page-header__panel-timetable-number {
+    color: #fff;
+    font-size: 21px;
+    font-family: 'GothaProBol' sans-serif;
+}
+
+
+.page-header__panel-timetable-ad-text {
+    width: 115px;
+    color: #ec1e79; 
+    font-size: 14px;
+    border-bottom: 1px solid #ec1e79;
+}
+
+.page-header__poster-img {
+    display: block;
+    width: 100%;
+}
+
+.page-header__panel-timetable-date-time {
+    display: none;
+}
+

@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'GothaProBol';
+	src: url('../../fonts/GothaProBol.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothaProLig';
+	src: url('../../fonts/GothaProLig.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GothaProLigIta';
+	src: url('../../fonts/GothaProLigIta.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
