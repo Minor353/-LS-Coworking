@@ -1,0 +1,53 @@
+.social__wrapper {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.social__caption {
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.social__link {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d4d4d8;
+    font-size: 0;
+    margin-right: 10px;
+}
+
+.social__link_vk {
+    background-image: url(../../img/general-img/vk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social__link_fb {
+    background-image: url(../../img/general-img/fb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social__link_G {
+    background-image: url(../../img/general-img/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social__link_tw {
+    background-image: url(../../img/general-img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social__link_mail {
+    background-image: url(../../img/general-img/mail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

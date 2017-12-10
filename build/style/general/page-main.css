@@ -1,0 +1,23 @@
+.page-main {
+    display: flex;
+    padding: 10px 20px;
+    padding-top: 55px;
+}
+
+.page-main__publications-caption {
+    margin: 0;
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 49px;
+    color: #221f1f;
+    line-height: 49px;
+    margin-bottom: 60px;
+}
+
+.page-main__feature-wrapper {
+    display: flex;
+    margin-bottom: 85px;
+}
+
+.page-main__publications-wrapper {
+    margin-bottom: 60px;
+}

@@ -1,0 +1,63 @@
+.page-feature {
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.page-feature__img {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #27273e;
+    margin-bottom: 35px;
+}
+
+.page-feature__img_flower {
+    background-image: url(../../img/main-page-img/main-features-flower-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-feature__img_star {
+    background-image: url(../../img/main-page-img/main-features-star-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-feature__img_palette {
+    background-image: url(../../img/main-page-img/main-features-palette-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-feature__name {
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #27273e;
+    margin-bottom: 17px;
+}
+
+.page-feature_description {
+    font-size: 18px;
+    color: #27273e;
+    line-height: 26px;
+}
+
+.page-feature__list {
+    margin: 0;
+}
+
+.page-feature__list-item {
+    color: #cc3366;
+    text-align: left;
+    line-height: 28px;
+}
+
+.page-feature__list-item span {
+    color: #27273e;
+    font-size: 18px;
+    margin-left: 35px;
+}

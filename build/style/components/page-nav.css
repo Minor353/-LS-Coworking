@@ -1,0 +1,32 @@
+.page-nav__wrapper {
+    list-style-type: none;
+    width: 145px;
+    padding: 0;
+    margin: 0;
+}
+
+.page-nav__item {
+    margin-bottom: 33px;
+}
+
+.page-main__nav-link {
+    text-decoration: none;
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 12px;
+    color: #ec1e79;
+    text-transform: uppercase;
+}
+
+.page-main__nav-link_active {
+    color: #000000;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.fa {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.fa_active {
+    color: #000000;
+}

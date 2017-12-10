@@ -1,0 +1,26 @@
+.page-footer {
+    background-color: #27273e;
+    
+}
+
+.page-footer__wrapper {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+.page-footer__inform {
+    font-family: 'GothaProLig', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    width: 270px;
+}
+
+.page-footer__text-bold {
+    font-family: 'GothaProBol', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+}
+

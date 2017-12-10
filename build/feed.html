@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Workadium feed</title>
+    <link rel="stylesheet" href="style/util/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
@@ -28,9 +31,9 @@
             <div class="container">
                 <nav class="page-nav">
                     <ul class="page-nav__wrapper">
-                        <li class="page-nav__item"><a class="page-main__nav-link" href="#">Главная</a></li>
-                        <li class="page-nav__item"><a class="page-main__nav-link" href="#">Отзывы</a></li>
-                        <li class="page-nav__item"><a class="page-main__nav-link" href="#">Тарифы</a></li>
+                        <li class="page-nav__item"><a class="page-main__nav-link" href="index.html"><i class="fa fa-exclamation-triangle nav__icon" aria-hidden="true"></i>Главная</a></li>
+                        <li class="page-nav__item"><a class="page-main__nav-link" href="#"><i class="fa fa-star-o fa_active" aria-hidden="true"></i><span  class="page-main__nav-link_active">Отзывы</span></a></li>
+                        <li class="page-nav__item"><a class="page-main__nav-link" href="price.html"><i class="fa fa-money nav__icon" aria-hidden="true"></i>Тарифы</a></li>
                     </ul>
                 </nav>
 
@@ -171,29 +174,33 @@
         </main>
 
         <footer class="page-footer">
-            <div class="page-footer__inform">
-                Сделано с любовью и старанием на курсе «HTML + CSS» в <span class="page-footer__text-bold">LoftSchool</span>. Автор работы: <span class="page-footer__text-bold">Никитенко Геннадий</span>
-            </div>
-            <div class="page-footer__logo"></div>
-            <div class="social">
-                <div class="social__caption">Наши социальные сети</div>
-                <ul class="social__wrapper">
-                    <li class="social__item">
-                        <a  class="social__link  social__link_vk" href="#">#</a>
-                    </li>
-                    <li class="social__item">
-                        <a  class="social__link  social__link_fb" href="#">#</a>
-                    </li>
-                    <li class="page-footer__social-item">
-                        <a  class="social__link  social__link_G" href="#">#</a>
-                    </li>
-                    <li class="page-footer__social-item">
-                        <a  class="social__link  social__link_tw" href="#">#</a>
-                    </li>
-                    <li class="page-footer__social-item">
-                        <a  class="social__link  social__link_mail" href="#">#</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="page-footer__wrapper">
+                    <div class="page-footer__inform">
+                        Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="page-footer__text-bold">LoftSchool</a>. Автор работы: <span class="page-footer__text-bold">Никитенко Геннадий</span>
+                    </div>
+                    <div class="page-header__panel-logo"></div>
+                    <div class="social">
+                        <div class="social__caption">Наши социальные сети</div>
+                        <ul class="social__wrapper">
+                            <li class="social__item">
+                                <a class="social__link  social__link_vk" href="#">#</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link  social__link_fb" href="#">#</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link  social__link_G" href="#">#</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link  social__link_tw" href="#">#</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link  social__link_mail" href="#">#</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </footer>
     </div>
