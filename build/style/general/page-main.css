@@ -4,6 +4,10 @@
     padding-top: 55px;
 }
 
+.page-main_block {
+    display: block;
+}
+
 .page-main__publications-caption {
     margin: 0;
     font-family: 'GothaProBol', sans-serif;
