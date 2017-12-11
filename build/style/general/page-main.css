@@ -13,7 +13,8 @@
     margin-bottom: 60px;
 }
 
-.page-main__feature-wrapper {
+.page-main__feature-list {
+    list-style-type: none;
     display: flex;
     margin-bottom: 85px;
 }

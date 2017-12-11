@@ -48,6 +48,7 @@
 
 .page-feature__list {
     margin: 0;
+    list-style-type: disc;
 }
 
 .page-feature__list-item {

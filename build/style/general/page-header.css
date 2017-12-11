@@ -10,13 +10,13 @@
    
 }
 
-.page-header__panel-logo {
-    background-image: url(../../img/general-img/header-logo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+.page-header__logo {
     width: 100px;
     height: 50px;
-    
+}
+
+.page-header__logo-img {
+    display: block;
 }
 
 .page-header__panel-timetable {
@@ -26,6 +26,7 @@
 }
 
 .page-header__panel-timetable-number {
+    text-decoration: none;
     color: #fff;
     font-size: 21px;
     font-family: 'GothaProBol' sans-serif;

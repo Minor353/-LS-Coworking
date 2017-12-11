@@ -1,4 +1,10 @@
 .page-publication {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-publication__item {
     display: flex;
     border-bottom: 2px solid #f5f5f5;
     margin-bottom: 25px;
