@@ -1,0 +1,21 @@
+.stock {
+	background-image: url(../../img/feed-page-img/stok-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.stock span {
+    font-family: 'GothaProBol', sans-serif;
+    color: #ec1e79;
+}
+
+.stock-text {
+    width: 615px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px 0;
+}

@@ -1,0 +1,31 @@
+.breadcrumbs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.breadcrumbs__item {
+    font-family: 'GothaProLigIta', sans-serif;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.breadcrumbs__item-link {
+    color: #ec1e79;
+}
+
+.breadcrumbs__item-link_active:before {
+    content: "/";
+    text-decoration: none;
+    color: #000;
+    opacity: .8;
+    margin-right: 3px;
+   
+}
+
+.breadcrumbs__item-link_active {
+    text-decoration: none;
+    color: #000;
+    opacity: .8;
+}
