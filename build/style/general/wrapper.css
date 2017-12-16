@@ -1,3 +1,13 @@
 .wrapper {
-	font-family: 'GothaProLig', sans-serif;
+    font-family: 'GothaProLig', sans-serif;
+    position: relative;
+    min-height: 100%;
+    height: auto!important;
+    overflow: hidden;
+}
+
+.wrapper:after {
+    content: "";
+    height: 80px;
+    display: block;
 }

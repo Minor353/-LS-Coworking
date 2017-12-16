@@ -1,40 +1,37 @@
+@inport "util/normalize.css";
 @import "util/fonts.css";
-
 @import "util/font-awesome.css";
 
 /*General*/
 
 @import "general/container.css";
-
 @import "general/page-footer.css";
-
 @import "general/page-header.css";
-
 @import "general/page-main.css";
-
 @import "general/wrapper.css";
+
 /*********/
+
 
 /*Components*/
 
 @import "components/breadcrumbs.css";
-
 @import "components/form.css";
-
 @import "components/page-feature.css";
-
 @import "components/page-nav.css";
-
 @import "components/page-publication.css";
-
 @import "components/paginator.css";
-
 @import "components/partners.css";
-
 @import "components/price-content.css";
-
 @import "components/social.css";
-
 @import "components/stock.css";
 
 /**/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
