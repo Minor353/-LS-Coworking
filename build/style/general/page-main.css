@@ -14,16 +14,18 @@
     color: #221f1f;
     line-height: 49px;
     margin-bottom: 60px;
+    margin-left: 33px;
 }
 
 .page-main__feature-list {
     list-style-type: none;
     display: flex;
-    margin-bottom: 85px;
+    padding: 0;
+    margin-bottom: 72px;
 }
 
 .page-main__publications-wrapper {
-    margin-bottom: 60px;
+    margin-bottom: 66px;
 }
 
 

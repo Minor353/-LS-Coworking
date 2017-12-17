@@ -1,7 +1,8 @@
 .paginator {
     width: 360px;
     margin: 0 auto;
-    margin-bottom: 68px;;
+    margin-bottom: 68px;
+    margin-left: 308px;
     display: flex;
 }
 
@@ -10,7 +11,7 @@
     font-size: 14px;
     line-height: 21px;
     font-weight: 300;
-    margin-right: 15px;
+    margin-right: 19px;
 }
 
 .paginator__mark {
@@ -44,6 +45,14 @@
     font-weight: 700;
     display: inline-block;
     width: 10px;
+}
+
+.paginator__prev {
+    margin-right: 10px;
+}
+
+.paginator__next {
+    margin-left: 10px;
 }
 
 .paginator__page_active {

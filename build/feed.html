@@ -126,72 +126,73 @@
             </section>
 
             <section class="form">
-                <div class="container">
-                    <form action="">
-                        <div class="form__wrapper">
-                            <h3 class="form-title">Оставить отзыв</h3>
-                            <div class="form__content">
-                                <div class="form__input-elem">
-                                    <label class="form__field-title">Ваше имя</label>
-                                    <input type="text" name="" class="form__input">
-                                </div>
 
-                                <div class="form__input-elem">
-                                    <label class="form__field-title">Ссылка на профиль в VK</label>
-                                    <input type="text" name="" class="form__input">
-                                </div>
-
-                                <div class="form__text-area">
-                                    <label class="form__field-title">Текст отзыва</label>
-                                    <textarea name="" class="form__big-text"></textarea>
-                                </div>
-
-                                <div class="form__controls">
-                                    <div class="form__field-title">Отображать фото в отзыве?</div>
-                                    <div class="form__controls-btns">
-                                        <input type="radio" name="photo" class="form__radio">
-                                        <label class="form__trigger-title">Да</label>
-
-                                        <input type="radio" name="photo" class="form__radio">
-                                        <label class="form__trigger-title">Нет</label>
-
-                                    </div>
-                                </div>
-
-                                <div class="form__send-btns">
-                                    <button class="form__btn_send" type="submit">Отправить</button>
-                                </div>
+                <form action="">
+                    <div class="form__wrapper">
+                        <h3 class="form-title">Оставить отзыв</h3>
+                        <div class="form__item">
+                            <div class="form__column">
+                                <label for="name" class="form__label">Ваше имя</label>
+                                <input type="text" id="name" class="form__input" placeholder="Андрей">
+                            </div>
+                            <div class="form__column">
+                                <label for="vk" class="form__label">Ссылка на профиль VK</label>
+                                <input type="text" id="vk" class="form__input" placeholder="vk.com/example">
                             </div>
                         </div>
-                    </form>
+                        
+                        <div class="form__item  form__item_flex-column">
+                            <label for="comment" class="form__label">Текст отзыва</label>
+                            <textarea name="comment" id="comment" class="form__textarea" placeholder="Мне понравилось"></textarea>
+                        </div>
+                        
+                        <div class="form__item  form__item_position">
+                            <div class="form__column  form__column_width">
+                                <label for="" class="form__label">Отображать фото в отзыве?</label>
+                                <div class="form__radio_fake">
+                                    <input type="radio" name="photo" class="form__radio" id="yes" value="Да">
+                                    <label for="yes" class="form__label form__label_type_radio">Да</label>
+                                </div>
+                                <div class="form__radio_fake">
+                                    <input type="radio" name="photo" class="form__radio" id="no" value="Нет">
+                                    <label for="no" class="form__label form__label_type_radio">Нет</label>
+                                </div>
+                            </div>
+                            <div class="form__column">
+                                <button type="submit" class="form__submit">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
             </section>
 
         </main>
-        </div>
-        <footer class="page-footer">
-            <div class="container">
-                <div class="page-footer__wrapper">
-                    <div class="page-footer__inform">
-                        Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="page-footer__text-bold">LoftSchool</a>. Автор работы: <span class="page-footer__text-bold">Никитенко Геннадий</span>
-                    </div>
-                    <a class="page-header__logo" href="index.html"><img class="page-header__logo-img" src="img/general-img/header-logo.png" alt="Logo"></a>
-                    <div class="social">
-                        <div class="social__caption">Наши социальные сети</div>
-                        <div class="social__wrapper">
-                            <a class="social__link  social__link_vk" href="#">vk.com</a>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="page-footer__wrapper">
+                <div class="page-footer__inform">
+                    Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="#" class="page-footer__text-bold">LoftSchool</a>. Автор работы: <span class="page-footer__text-bold">Никитенко Геннадий</span>
+                </div>
+                <a class="page-header__logo" href="index.html"><img class="page-header__logo-img" src="img/general-img/header-logo.png" alt="Logo"></a>
+                <div class="social">
+                    <div class="social__caption">Наши социальные сети</div>
+                    <div class="social__wrapper">
+                        <a class="social__link  social__link_vk" href="#">vk.com</a>
 
-                            <a class="social__link  social__link_fb" href="#">facebook.com</a>
+                        <a class="social__link  social__link_fb" href="#">facebook.com</a>
 
-                            <a class="social__link  social__link_G" href="#">plus.google.com</a>
+                        <a class="social__link  social__link_G" href="#">plus.google.com</a>
 
-                            <a class="social__link  social__link_tw" href="#">twitter.com</a>
+                        <a class="social__link  social__link_tw" href="#">twitter.com</a>
 
-                            <a class="social__link  social__link_mail" href="#">link_mail</a>
-                        </div>
+                        <a class="social__link  social__link_mail" href="#">link_mail</a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 </body>
 

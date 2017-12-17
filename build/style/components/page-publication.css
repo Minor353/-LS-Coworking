@@ -1,14 +1,16 @@
 .page-publication {
     list-style-type: none;
     margin: 0;
+    margin-top: 70px;
     padding: 0;
+    padding-left: 30px;
 }
 
 .page-publication__item {
     display: flex;
     border-bottom: 2px solid #f5f5f5;
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    margin-bottom: 28px;
+    padding-bottom: 15px;
 }
 
 
@@ -32,6 +34,7 @@
     font-size: 14px;
     line-height: 21px; 
     font-weight: 300;
+    margin-bottom: 6px;
 }
 
 .page-publication__text-caption {
@@ -40,6 +43,7 @@
     line-height: 21px;
     font-weight: 700;
     margin: 0;
+    margin-bottom: 7px;
 }
 
 .page-publication__text {
