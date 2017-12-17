@@ -1,7 +1,9 @@
 
 .price-content {
     margin: 0;
-    padding: 0;
+    padding-top: 11px;
+    padding-left: 35px;
+    padding-right: 20px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -11,7 +13,7 @@
 
 .price-content__item {
     width: 250px;
-    margin-bottom: 40px;
+    margin-bottom: 46px;
 }
 
 .price-content__ava-wrapper {
@@ -23,7 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
 
 .price-content__ava-title {

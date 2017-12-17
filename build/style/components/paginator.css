@@ -6,6 +6,11 @@
     display: flex;
 }
 
+.paginator_position {
+    margin-left: 253px;
+    margin-bottom: 57px;
+}
+
 .paginator__designation {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;

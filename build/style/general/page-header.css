@@ -6,8 +6,11 @@
 .page-header__panel {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-   
+    padding: 10px 20px; 
+}
+
+.page-header__panel_padding {
+    padding-bottom: 15px;
 }
 
 .page-header__logo {
@@ -39,6 +42,8 @@
     color: #ec1e79; 
     font-size: 14px;
     border-bottom: 1px solid #ec1e79;
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
 }
 
 .page-header__poster {

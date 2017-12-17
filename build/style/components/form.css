@@ -10,7 +10,7 @@
     font-family: 'GothaProBol', sans-serif;
     font-size: 49px;
     margin: 0;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
 }
 
 .form__item {
@@ -31,7 +31,7 @@
     width: 260px;
     padding: 16px 0 16px 10px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #fff;
@@ -40,10 +40,10 @@
 
 .form__textarea {
     width: 550px;
-    height: 80px;
+    height: 77px;
     resize: none;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 2px;
     margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid #fff;
@@ -74,7 +74,7 @@
     font-family: 'GothaProBol', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    
+    letter-spacing: 2px;
 }
 /************Активные стили элементов******************/
 .form__label_type_radio{

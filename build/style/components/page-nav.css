@@ -2,6 +2,10 @@
     margin-top: 6px;
 }
 
+.page-nav_margin {
+    margin-top: 0;
+}
+
 .page-nav__list {
     list-style-type: none;
     width: 145px;

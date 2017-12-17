@@ -6,6 +6,10 @@
     padding-left: 30px;
 }
 
+.page-publication_margin {
+    margin-top: 40px;
+}
+
 .page-publication__item {
     display: flex;
     border-bottom: 2px solid #f5f5f5;
@@ -13,7 +17,9 @@
     padding-bottom: 15px;
 }
 
-
+.page-publication__item_margin {
+    margin-bottom: 31px;
+}
 
 .page-publication__ava-wrapper {
     width: 160px;
@@ -23,6 +29,9 @@
     background-color: #f5f5f5;
 }
 
+.page-publication__ava-wrapper_margin {
+    margin-right: 27px;
+}
 
 .page-publication__text-wrapper {
     width: 682px;
@@ -42,6 +51,7 @@
     font-size: 18px;
     line-height: 21px;
     font-weight: 700;
+    letter-spacing: 1px;
     margin: 0;
     margin-bottom: 7px;
 }
@@ -51,6 +61,7 @@
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
+    letter-spacing: 0.5px;
 }
 
 .page-publication_decor {

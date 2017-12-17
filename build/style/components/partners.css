@@ -1,5 +1,10 @@
+.partners {
+    margin-bottom: 14px;
+}
+
 .partners__list {
     margin: 0;
+    margin-left: 39px;
     padding: 0;
     list-style-type: none;
     width: 700px;
@@ -9,12 +14,13 @@
 }
 
 .partners__item {
-    margin-right: 120px;
-    margin-bottom: 45px;
+    margin-right: 122px;
+    margin-bottom: 38px;
 }
 
-.partners__item_no-margin {
+.partners__item_margin {
     margin-right: 0;
+    margin-left: 28px;
 }
 
 .parnters__image{
