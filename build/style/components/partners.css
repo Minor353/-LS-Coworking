@@ -10,17 +10,23 @@
     width: 700px;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 40px;
+    align-items: center;
+    padding-bottom: 32px;
 }
 
 .partners__item {
     margin-right: 122px;
-    margin-bottom: 38px;
+    margin-bottom: 46px;
 }
 
 .partners__item_margin {
     margin-right: 0;
     margin-left: 28px;
+}
+
+.partners__item_left-margin {
+    margin-right: 0;
+    margin-left: 53px;
 }
 
 .parnters__image{

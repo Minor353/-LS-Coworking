@@ -1,5 +1,5 @@
 .page-nav {
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .page-nav_margin {
@@ -8,8 +8,9 @@
 
 .page-nav__list {
     list-style-type: none;
-    width: 145px;
+    width: 107px;
     padding: 0;
+    padding-left: 39px;
     margin: 0;
 }
 
@@ -17,7 +18,8 @@
     margin-bottom: 33px;
 }
 
-.page-main__nav-link {
+.page-nav__link {
+    position: relative;
     text-decoration: none;
     font-family: 'GothaProBol', sans-serif;
     font-size: 12px;
@@ -25,16 +27,93 @@
     text-transform: uppercase;
 }
 
-.page-main__nav-link_active {
+.page-nav__link_main-active,
+.page-nav__link_feed-active,
+.page-nav__link_price-active {
     color: #000000;
     border-bottom: 1px solid #bfbfbf;
 }
 
-.fa {
-    margin-right: 20px;
-    font-size: 18px;
+.page-nav__link_main:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    width: 17px;
+    height: 15px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    background-position: -326px -40px;
 }
 
-.fa_active {
-    color: #000000;
+.page-nav__link_feed:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    width: 20px;
+    height: 18px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    background-position: -126px -40px;
 }
+
+.page-nav__link_price:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    width: 19px;
+    height: 16px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    background-position: -357px -311px;
+}
+
+.page-nav__link_main-active:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    width: 17px;
+    height: 15px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    background-position: -260px -249px;
+}
+
+.page-nav__link_feed-active:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    width: 20px;
+    height: 18px;
+    background-position: -226px -40px;
+}
+
+.page-nav__link_price-active:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -39px;
+    background-image: url(../../img/general-img/spritesheet.png);
+    width: 19px;
+    height: 16px;
+    background-position: -425px -40px;
+}
+ .page-nav__item:hover .page-nav__link{
+    color: #000;
+} 
+
+
+
+.page-nav__item:hover .page-nav__link_main:before {
+    background-position: -260px -249px;
+}
+
+.page-nav__item:hover .page-nav__link_feed:before {
+    background-position: -226px -40px;
+}
+
+.page-nav__item:hover .page-nav__link_price:before {
+    background-position: -425px -40px;
+}
+

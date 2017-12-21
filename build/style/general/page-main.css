@@ -31,16 +31,11 @@
 }
 
 .page-main__publications-partners-caption {
-    margin-bottom: 47px;
+    margin-bottom: 40px;
     margin-left: 36px;
 }
 
-.page-main__feature-list {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    margin-bottom: 72px;
-}
+
 
 .page-main__publications-wrapper {
     margin-bottom: 66px;

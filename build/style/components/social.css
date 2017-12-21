@@ -27,31 +27,31 @@
 }
 
 .social__link_vk {
-    background-image: url(../../img/general-img/vk.png);
+    background-image: url(../../img/general-img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -353px -218px;
 }
 
 .social__link_fb {
-    background-image: url(../../img/general-img/fb.png);
+    background-image: url(../../img/general-img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -33px -37px;
 }
 
 .social__link_G {
-    background-image: url(../../img/general-img/google.png);
+    background-image: url(../../img/general-img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -37px -133px;
 }
 
 .social__link_tw {
-    background-image: url(../../img/general-img/twitter.png);
+    background-image: url(../../img/general-img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -329px -129px;
 }
 
 .social__link_mail {
-    background-image: url(../../img/general-img/mail.png);
+    background-image: url(../../img/general-img/spritesheet.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -131px -133px;
 }
