@@ -65,6 +65,10 @@
     width: 220px;
 } 
 
+label:hover {
+    cursor:pointer;
+}
+
 .form__submit {
     padding: 17px 20px;
     background-color: #27273e;
@@ -75,6 +79,12 @@
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+
+.form__submit:hover {
+    background-color: #ec1e79;
+    transition: background-color 0.3s;
 }
 /************Активные стили элементов******************/
 .form__label_type_radio{
@@ -103,12 +113,14 @@
     left: -23px;
     top: 3px;
     opacity: 0;
+    transition: opacity 0.3s;
 }
 .form__radio:checked + .form__label_type_radio:after,
 .form__radio:checked + .form__label_type_radio:before
 {
     opacity: 1;
     border-color: #ec1e79;
+    transition: opacity 0.5s;
 }
 .form__radio{
     opacity: 0;

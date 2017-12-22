@@ -32,7 +32,7 @@
     color: #221f1f;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 23px;
     font-weight: 700;
     text-align: center;
     display: inline-block;
@@ -40,6 +40,7 @@
     border-radius: 3px;
     width: 25px;
     height: 23px;
+    transition: color 0.5s;
 }
 
 .paginator__prev,
@@ -62,9 +63,14 @@
 
 .paginator__page_active {
     background-color: #27273e;
-    color: #ffffff;
+    color: #ec1e79;
 }
 
 .paginator__arow-disabled {
     color: #bebdbd;
+}
+
+.paginator__mark-item:hover .paginator__page{
+    color: #ec1e79;
+    transition: color 0.3s;
 }
