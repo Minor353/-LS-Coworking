@@ -1,0 +1,24 @@
+.intro-link-block {
+    animation: tadam 0.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes tadam {
+    0%{
+        opacity: 0;
+    }
+    5% {
+        transform: scale(0.5, 0.5);
+    }
+    25% {
+        transform: rotate(-35deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

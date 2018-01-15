@@ -33,3 +33,8 @@
     margin: auto;
     margin-left: 209px;
 }
+
+.page-footer__logo-img {
+    width: 100%;
+    height: 100%;
+}

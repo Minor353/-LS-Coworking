@@ -25,7 +25,8 @@
 @import "components/price-content.css";
 @import "components/social.css";
 @import "components/stock.css";
-
+@import "components/intro.css";
+@import "components/intro-animation.css";
 /**/
 
 html {

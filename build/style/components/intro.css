@@ -1,0 +1,44 @@
+.intro-background-img {
+    background-image: url(../../img/Intro-page-img/intro-main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-color: #26122b;
+    display: flex;
+}
+
+.intro-link-block {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.intro-link-img {
+    width: 161px;
+    height: 119px;
+    margin-bottom: 25px;
+}
+
+.intro-link {
+    max-width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ec1e79;
+    font-family: 'GothaProBol', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 3px solid #ec1e79;
+    padding: 14px 19px; 
+    border-radius: 2px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.intro-link:hover {
+    background-color: #ec1e79;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}

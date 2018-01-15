@@ -42,6 +42,8 @@
     left: -39px;
     width: 17px;
     height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     background-position: -326px -40px;
 }
@@ -53,6 +55,8 @@
     left: -39px;
     width: 20px;
     height: 18px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     background-position: -126px -40px;
 }
@@ -64,6 +68,8 @@
     left: -39px;
     width: 19px;
     height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     background-position: -357px -311px;
 }
@@ -75,6 +81,8 @@
     left: -39px;
     width: 17px;
     height: 15px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     background-position: -260px -249px;
 }
@@ -84,6 +92,8 @@
     display: inline-block;
     position: absolute;
     left: -39px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     width: 20px;
     height: 18px;
@@ -95,6 +105,8 @@
     display: inline-block;
     position: absolute;
     left: -39px;
+    top: 50%;
+    transform: translateY(-50%);
     background-image: url(../../img/general-img/spritesheet.png);
     width: 19px;
     height: 16px;

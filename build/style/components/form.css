@@ -70,6 +70,7 @@ label:hover {
 }
 
 .form__submit {
+    max-width: 170px;
     padding: 17px 20px;
     background-color: #27273e;
     border: none;
